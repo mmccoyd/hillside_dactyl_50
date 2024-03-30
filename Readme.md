@@ -1,27 +1,30 @@
-# Blerb
-A split choc keyboard
-with a three-row contoured keywell
-and a five-key double-arc thumb cluster
-similar to the Dactyl Lightcycle.
+# Blurbs
 
-The case design allows tight choc spacing, or a tad narrower.
+## GitHub Blurb
+
+A small Dactyl type choc-spaced keyboard (split contoured-keywell)
+  with three main rows of six and a five-key double-arc thumb cluster.
+
+## Rest of Readme
+
+This is a Dactyl type case and bottom plate that go around the
+  [Hillside MCU Breakout] guts
+  and optional
+  keywell [Amoeba Choc14]s.
 
 Some key features are:
 
-- Original Dactyl flat style thumb cluster, not gripping hand Manuform style.
+- Original Dactyl non-gripping motion thumb cluster.
+- The case design allows choc 18 x 17 mm spacing, or a tad narrower.
 - Focus on wireless, but with wired split support with a little case drilling.
 - (Header for external switches (with a little case drilling))
 - (Parametric design for tweaks within a modest range.)
 
+## Blurb WRT other Hillsides
 
-# Blerb wrt others
+A contoured keywell gives each finger its preferred height
+  for more comfort and easier chording.
 
-A contoured keywell gives each finger its preferred height, like a choc Dactyl Lightcycle.
+## Name
 
-
-# Name
-
-Hillside 50 Dactyl
-
-
-
+Hillside Dactyl 50
