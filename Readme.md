@@ -1,30 +1,41 @@
-# Blurbs
+# Hillside Dactyl 50
 
-## GitHub Blurb
+<img src="./image/D50_top_front.png" width="400">
 
-A small Dactyl type choc-spaced keyboard (split contoured-keywell)
-  with three main rows of six and a five-key double-arc thumb cluster.
 
-## Rest of Readme
+This is the central repo for the Hillside Dactyl 50 ergonomic keyboard.
+The [releases](https://github.com/mmccoyd/hillside_dactyl_50/releases)
+    have the STEP files for the body and a few other parts,
+    and the [wiki](https://github.com/mmccoyd/hillside_dactyl_50/wiki)
+    describes parts and assembly.
 
-This is a Dactyl type case and bottom plate that go around the
-  [Hillside MCU Breakout] guts
-  and optional
-  keywell [Amoeba Choc14]s.
+The PCBs for it are in two other repositories.
 
-Some key features are:
+-   [Hillside Dactyl Shield](https://github.com/mmccoyd/hillside_dactyl_shield)
+    to connect the MCU, keys, display, and LEDs.
+-   [Amoeba Choc14](https://github.com/mmccoyd/hillside_amoeba_choc14)
+    to wire the switches and diodes to create the key matrix.
 
-- Original Dactyl non-gripping motion thumb cluster.
-- The case design allows choc 18 x 17 mm spacing, or a tad narrower.
-- Focus on wireless, but with wired split support with a little case drilling.
-- (Header for external switches (with a little case drilling))
-- (Parametric design for tweaks within a modest range.)
+There is an easy [3D preview](./stl/Hillside_D50.stl) of the body.
 
-## Blurb WRT other Hillsides
+## Features
 
-A contoured keywell gives each finger its preferred height
-  for more comfort and easier chording.
+-   Three main rows, a lower row of two keys, five thumb keys, and 50 keys
+    total.
+-   A keywell with 15° column curve, and 15° tent built in.
+-   A Dactyl style thumb cluster with a pressing-down motion not a
+    gripping one.
+-   Choc 18 x 17 mm spacing.
+-   Wireless focused, yet with a wired split USB-C with ESD protection.
+-   An external switches header, but case drilling would be needed.
 
-## Name
+## Keymap
 
-Hillside Dactyl 50
+It has default [ZMK](https://github.com/mmccoyd/zmk-hillsideD50)
+    and QMK key maps. 
+
+## See also
+
+This is the 3D evolution of the
+[flat Hillside keyboards](https://github.com/mmccoyd/hillside).
+Those may be an easier entry point for anyone new to small ergonomic boards.
