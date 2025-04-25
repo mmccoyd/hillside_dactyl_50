@@ -1,13 +1,20 @@
 # Hillside Dactyl 50
 
-<img src="./image/D50_top_front.png" width="400">
+|                 |                 |
+|:-----------     |:----------------|
+| ![Built board](./image/D50_top_front.png) | ![Render](./image/D50_render.png) |
 
 
-This is the central repo for the Hillside Dactyl 50 ergonomic keyboard.
+This is the central repository for the Hillside Dactyl 50 ergonomic keyboard.
 The [releases](https://github.com/mmccoyd/hillside_dactyl_50/releases)
     have the STEP files for the body and a few other parts,
     and the [wiki](https://github.com/mmccoyd/hillside_dactyl_50/wiki)
     describes parts and assembly.
+There is a [3D preview](./stl/Hillside_D50.stl) of the body.
+
+> Note:
+> I'm waiting on delivery of alpha.3. Updates when it's tested.
+> But it has key improvements over the previous, alpha.2.
 
 The PCBs for it are in two other repositories.
 
@@ -16,7 +23,7 @@ The PCBs for it are in two other repositories.
 -   [Amoeba Choc14](https://github.com/mmccoyd/hillside_amoeba_choc14)
     to wire the switches and diodes to create the key matrix.
 
-There is an easy [3D preview](./stl/Hillside_D50.stl) of the body.
+I've found it to be a nice board, hopefully you find it useful.
 
 ## Features
 

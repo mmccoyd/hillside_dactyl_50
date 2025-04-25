@@ -1,5 +1,34 @@
 # Change Log for the Hillside Dactyl 50 body
 
+## v0.1.0-alpha.3
+
+The major changes are fixing display mounting and adding a bare LED mount hole.
+
+-   Display
+    -   Tilt sideways 10° for visibility and interior mounting space
+    -   Move down to not bump up from index home row
+-   Display socket
+    -   Notch on outside wall for securing display
+    -   Four holes for securing display, away from central components
+    -   Wider margin before outside wall, though may shorten later
+-   Wall
+    -   LED hole, round with a slot/open viewing or secondary hole.
+    -   Hole grills on the flat areas, instead of open panels.
+    -   Smoother front bottom edge and thumb-keywell transition.
+-   Switch socket
+    -   Clip-in tighter. Chamfer height reduced to 0.3 mm from 0.5 mm.
+-   MCU corner
+    -   Shrink MCU USB-C hole, -2 mm in width and height.
+    -   Screw hole for bottom plate moved away from PCB for install clearance.
+-   Screw heat insert
+    -   Loosen diameter back to 4.1 mm from 4.0 mm.
+-   Base plate
+    -   LED holes moved to the new alpha.3 shield positions
+    -   Screw recess add .3 mm depth
+    -   Magnetic recess add .1 mm depth to .5 mm
+-   Neither keywell nor thumb cluster layout changes.
+
+
 ## v0.1.0-alpha.2
 
 Should be used with matching shield alpha.2, not really shield alpha.3.
@@ -51,6 +80,7 @@ Shield
 ### Inner detail changes
 
 -   Column end cap sketches protect key caps and transition to down
+
 
 ## v0.1.0-alpha.1
 
