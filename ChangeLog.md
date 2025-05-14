@@ -2,6 +2,17 @@
 
 ## v0.1.0-alpha.3
 
+Better display position and mounting, LED hole, wall grills not open panels.
+
+### Known issues
+
+-   Fully screwing in the display screw pushes up a small bump in the case top
+    around the display.
+-   The USB holes work with the cables I have,
+    but the split one may be too deep for some cables and the rear is inelegant.
+
+### Changes
+
 The major changes are fixing display mounting and adding a bare LED mount hole.
 
 -   Display
@@ -15,23 +26,33 @@ The major changes are fixing display mounting and adding a bare LED mount hole.
     -   LED hole, round with a slot/open viewing or secondary hole.
     -   Hole grills on the flat areas, instead of open panels.
     -   Smoother front bottom edge and thumb-keywell transition.
--   Switch socket
-    -   Clip-in tighter. Chamfer height reduced to 0.3 mm from 0.5 mm.
+-   Key switch socket
+    -   Tighter clip-in. Chamfer height reduced to 0.3 mm from 0.5 mm.
 -   MCU corner
-    -   Shrink MCU USB-C hole, -2 mm in width and height.
+    -   Rear USB-C hole smaller inner hole, with generous outer hole
+        -   Inner: 5 mm tall, 9 mm straight top part
+        -   Outer: 9 mm tall, 17 mm wide, 1 mm corners, 2.5 mm recessed
+            for the plug's plastic part
+        -   (Before that, tested it with -2 mm width and height from alpha.2,
+            but plastic plug didn't fit.)
     -   Screw hole for bottom plate moved away from PCB for install clearance.
+    -   Taller corner column to strengthen body after putting bigger holes in
+        the MCU corner walls.
 -   Screw heat insert
     -   Loosen diameter back to 4.1 mm from 4.0 mm.
--   Base plate
+-   Bottom plate
     -   LED holes moved to the new alpha.3 shield positions
     -   Screw recess add .3 mm depth
-    -   Magnetic recess add .1 mm depth to .5 mm
+    -   Magnetic recess add .1 mm depth to .5 mm.
+    -   Grid hole spacing 3.3 mm to avoid thin wall warnings.
 -   Neither keywell nor thumb cluster layout changes.
+-   Thumbs: reduce the extra front lip
 
 
 ## v0.1.0-alpha.2
 
-Should be used with matching shield alpha.2, not really shield alpha.3.
+Tighter thumb cluster, recess for magnetic mount, reset switch on back.
+Not released.
 
 ### Known issues
 

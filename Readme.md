@@ -2,47 +2,116 @@
 
 |                 |                 |
 |:-----------     |:----------------|
-| ![Built board](./image/D50_top_front.png) | ![Render](./image/D50_render.png) |
+| ![Render left](./image/D50_render_left.png) | ![Photo right](./image/D50_right.png) |
+| ![Build boards](./image/D50_build_boards.png) |![Build open](./image/D50_build_open.png) |
 
 
-This is the central repository for the Hillside Dactyl 50 ergonomic keyboard.
-The [releases](https://github.com/mmccoyd/hillside_dactyl_50/releases)
-    have the STEP files for the body and a few other parts,
-    and the [wiki](https://github.com/mmccoyd/hillside_dactyl_50/wiki)
-    describes parts and assembly.
-There is a [3D preview](./stl/Hillside_D50.stl) of the body.
+The Hillside Dactyl 50 is a small choc-spaced contoured-keywell ergonomic
+    keyboard.
+This repository has the [body files](./stl/),
+    and describes parts and assembly in the 
+    [wiki](https://github.com/mmccoyd/hillside_dactyl_50/wiki).
 
-> Note:
-> I'm waiting on delivery of alpha.3. Updates when it's tested.
-> But it has key improvements over the previous, alpha.2.
+Two other repositories have the PCB files
 
-The PCBs for it are in two other repositories.
-
--   [Hillside Dactyl Shield](https://github.com/mmccoyd/hillside_dactyl_shield)
-    to connect the MCU, keys, display, and LEDs.
 -   [Amoeba Choc14](https://github.com/mmccoyd/hillside_amoeba_choc14)
     to wire the switches and diodes to create the key matrix.
+-   [Hillside Dactyl Shield](https://github.com/mmccoyd/hillside_dactyl_shield)
+    to connect the MCU, keys, display, and LEDs.
 
-I've found it to be a nice board, hopefully you find it useful.
+Though still in development, it has been reliable and comfortable.
+See the [Chgange log](./ChangeLog.md) for known issues, but
+    I hope you find the board useful.
+
 
 ## Features
 
--   Three main rows, a lower row of two keys, five thumb keys, and 50 keys
+-   Three main rows of six, a lower row of two, five thumb keys, and 50 keys
     total.
 -   A keywell with 15° column curve, and 15° tent built in.
--   A Dactyl style thumb cluster with a pressing-down motion not a
+-   A [Dactyl](https://github.com/adereth/dactyl-keyboard) style thumb cluster
+    with a pressing-down motion not a
     gripping one.
 -   Choc 18 x 17 mm spacing.
 -   Wireless focused, yet with a wired split USB-C with ESD protection.
--   An external switches header, but case drilling would be needed.
+-   An external switches header for foot pedals, but case drilling would be
+    needed.
+-   Default key maps for
+    [ZMK](https://github.com/mmccoyd/zmk-hillsideD50) as an external module and
+    [QMK](https://github.com/mmccoyd/qmk_firmware/tree/hillside_d50/keyboards/hillside/d50)
+    as a branch on a fork.
 
-## Keymap
 
-It has default [ZMK](https://github.com/mmccoyd/zmk-hillsideD50)
-    and QMK key maps. 
+### Non-Features
+
+-   Switch insertion or reinsertion externally.
+    The case needs to be open to press the amoebas up onto any new or
+    reinserted switches.
+    The amoeba aren't anchored into the case, due to build tolerance
+    concerns;
+    they are held in place by a tight grip on the switch's three plastic posts.
+    The switches do snap into the case, and switches popping out is rare when
+    dropped, but possible.
+    Iterating on this is on my list of longer term items.
+    Though soldering the switch and amoeba together is always possible.
+-   Per key RGB.
+    The amoebas don't have much space.
+    It would be cool and might be possible, but is low on my personal
+    priority list.
+
+
+## Future
+
+Eventually there will be a breaking change between the case and shield
+    to improve the USB holes,
+    to accept more plug variation on the side and eliminate the
+    recess in the back.
+In both cases by having the shield push the USB further into the inner wall.
+But this needs more fit modeling and testing, so it will be a while.
+
+For non-breaking changes:
+the display corner can be smoother and less protruding,
+spots for front magnets would allow a palm rest,
+and a CNC steel bottom plate would give a wider base for tenting adjustments
+    and could lower the height a few mm.
+
+
+## License
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](
+https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
+
 
 ## See also
 
-This is the 3D evolution of the
-[flat Hillside keyboards](https://github.com/mmccoyd/hillside).
-Those may be an easier entry point for anyone new to small ergonomic boards.
+This Dactyl evolved from my flat
+    [Hillside keyboards](https://github.com/mmccoyd/hillside),
+    which may be an easier start for those new to small choc-spaced ergonomic
+    boards.
+
+Some background information includes why
+    [split contoured-keywell](https://www.ergocanada.com/detailed_specification_pages/kinesis_corporation_advantage360_pro_contoured_keyboard.html#benefits)
+    and a [small keyboard](https://40s.wiki/en/why) can be desirable.
+
+Some prebuild Dactyls include
+    the larger [Kinesis Advantage 360](https://kinesis-ergo.com/shop/adv360pro/)
+    and [MoErgo Glove 80](https://www.moergo.com/),
+    while [Bastard Keyboards](https://bastardkb.com/) has prebuilt
+    medium to small
+    [Dactyl Manuforms](https://github.com/abstracthat/dactyl-manuform).
+Some argue that the original
+    [Dactyl](https://github.com/adereth/dactyl-keyboard)
+    is gentler on the thumb joint and wrist than the
+    [Dactyl Manuform](https://github.com/abstracthat/dactyl-manuform) is.
+The Glove 80 is the only of these prebuilt with choc spaced switches, 
+    which are nice for medium or smaller hands.
+
+[Cosmos](https://ryanis.cool/cosmos/) is a nice generator for custom Dactyl
+    Manuform bodies that can do choc vertical but not horizontal spacing;
+    it also offers a prebuilt option.
+The Cosmos cases are larger than the Hillside's, though that is also nice
+    in making the case insides less cramped during the build.
+YellowAfterlife's
+    [ergonomic keyboard list](https://yal-tools.github.io/ergo-keyboards/)
+    shows a few more contoured keywell options and many flat board options.
