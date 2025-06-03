@@ -6,8 +6,8 @@
 | ![Build boards](./image/D50_build_boards.png) |![Build open](./image/D50_build_open.png) |
 
 
-The Hillside Dactyl 50 is a small choc-spaced contoured-keywell ergonomic
-    keyboard.
+The Hillside Dactyl 50 is a small contoured-keywell ergonomic keyboard
+    with three choc-spaced rows of six per side.
 This repository has the [body files](./stl/),
     and describes parts and assembly in the 
     [wiki](https://github.com/mmccoyd/hillside_dactyl_50/wiki).
@@ -44,16 +44,12 @@ See the [Chgange log](./ChangeLog.md) for known issues, but
 
 ### Non-Features
 
--   Switch insertion or reinsertion externally.
-    The case needs to be open to press the amoebas up onto any new or
-    reinserted switches.
-    The amoeba aren't anchored into the case, due to build tolerance
-    concerns;
-    they are held in place by a tight grip on the switch's three plastic posts.
-    The switches do snap into the case, and switches popping out is rare when
-    dropped, but possible.
+-   Switch insertion or replacement externally.
+    The case needs to be open to press the amoebas up onto the switches.
+    The switches snap into the case, but the amoeba don't.
+    The amoeba are held in place by a tight grip on the switch's plastic posts.
+    Switches popping out is rare when dropped, but is possible.
     Iterating on this is on my list of longer term items.
-    Though soldering the switch and amoeba together is always possible.
 -   Per key RGB.
     The amoebas don't have much space.
     It would be cool and might be possible, but is low on my personal
@@ -90,9 +86,9 @@ This Dactyl evolved from my flat
     which may be an easier start for those new to small choc-spaced ergonomic
     boards.
 
-Some background information includes why
-    [split contoured-keywell](https://www.ergocanada.com/detailed_specification_pages/kinesis_corporation_advantage360_pro_contoured_keyboard.html#benefits)
-    and a [small keyboard](https://40s.wiki/en/why) can be desirable.
+Some background on the benefits of
+    [split contoured-keywells](https://www.ergocanada.com/detailed_specification_pages/kinesis_corporation_advantage360_pro_contoured_keyboard.html#benefits)
+    and [small keyboards](https://40s.wiki/en/why) may be helpful.
 
 Some prebuild Dactyls include
     the larger [Kinesis Advantage 360](https://kinesis-ergo.com/shop/adv360pro/)
@@ -114,4 +110,4 @@ The Cosmos cases are larger than the Hillside's, though that is also nice
     in making the case insides less cramped during the build.
 YellowAfterlife's
     [ergonomic keyboard list](https://yal-tools.github.io/ergo-keyboards/)
-    shows a few more contoured keywell options and many flat board options.
+    shows a few more contoured keywell options and many flat options.
