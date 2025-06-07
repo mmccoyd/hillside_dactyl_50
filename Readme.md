@@ -52,16 +52,14 @@ See the [Chgange log](./ChangeLog.md) for known issues, but
     Iterating on this is on my list of longer term items.
 -   Per key RGB.
     The amoebas don't have much space.
-    It would be cool and might be possible, but is low on my personal
-    priority list.
+    It would be cool and might be possible, but is low on my priority list.
 
 
 ## Future
 
 Eventually there will be a breaking change between the case and shield
     to improve the USB holes,
-    to accept more plug variation on the side and eliminate the
-    recess in the back.
+    to accept more plug over molding variations and eliminate the recesses.
 In both cases by having the shield push the USB further into the inner wall.
 But this needs more fit modeling and testing, so it will be a while.
 
@@ -70,6 +68,10 @@ the display corner can be smoother and less protruding,
 spots for front magnets would allow a palm rest,
 and a CNC steel bottom plate would give a wider base for tenting adjustments
     and could lower the height a few mm.
+
+The development branch folder
+    [stl_dev/](https://github.com/mmccoyd/hillside_dactyl_50/tree/dev/stl_dev)
+    may have *untested* body files with some of these future changes.
 
 
 ## License
@@ -81,14 +83,15 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
 
 ## See also
 
-This Dactyl evolved from my flat
+This Dactyl evolved from my ergonomic but flat
     [Hillside keyboards](https://github.com/mmccoyd/hillside),
     which may be an easier start for those new to small choc-spaced ergonomic
     boards.
 
-Some background on the benefits of
+The general reasons for
     [split contoured-keywells](https://www.ergocanada.com/detailed_specification_pages/kinesis_corporation_advantage360_pro_contoured_keyboard.html#benefits)
-    and [small keyboards](https://40s.wiki/en/why) may be helpful.
+    and [small keyboards](https://40s.wiki/en/why) may explain why
+    this board can be nice to use.
 
 Some prebuild Dactyls include
     the larger [Kinesis Advantage 360](https://kinesis-ergo.com/shop/adv360pro/)
@@ -107,7 +110,11 @@ The Glove 80 is the only of these prebuilt with choc spaced switches,
     Manuform bodies that can do choc vertical but not horizontal spacing;
     it also offers a prebuilt option.
 The Cosmos cases are larger than the Hillside's, though that is also nice
-    in making the case insides less cramped during the build.
+    in making the case less cramped inside during the build.
+Two choc v1 boards with contoured body columns,
+    though no home-row height variation, are the
+    [juriform36](https://github.com/jurica/juriform36) and the
+    [rkbrd3](https://github.com/prepor/rkbrd/tree/main/3).
 YellowAfterlife's
     [ergonomic keyboard list](https://yal-tools.github.io/ergo-keyboards/)
     shows a few more contoured keywell options and many flat options.

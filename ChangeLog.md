@@ -13,6 +13,12 @@ Better display position and mounting, LED hole, wall grills not open panels.
 
 ### Changes
 
+Breaking change (with respect to the shield)
+
+This moves the bottom LED and LED switch holes to reflect changes made by the
+0.1.0-alpha.3 shield. Using the bottom LEDs of an alpha.2 shield would require
+cutting some extra holes in the alpha.3 body bottom plate.
+
 The major changes are fixing display mounting and adding a bare LED mount hole.
 
 -   Display
