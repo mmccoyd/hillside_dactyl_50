@@ -71,7 +71,7 @@ and a CNC steel bottom plate would give a wider base for tenting adjustments
 
 The development branch folder
     [stl_dev/](https://github.com/mmccoyd/hillside_dactyl_50/tree/dev/stl_dev)
-    may have *untested* body files with some of these future changes.
+    may have *untested* files with some of these changes.
 
 
 ## License
@@ -106,11 +106,10 @@ Some argue that the original
 The Glove 80 is the only of these prebuilt with choc spaced switches, 
     which are nice for medium or smaller hands.
 
-[Cosmos](https://ryanis.cool/cosmos/) is a nice generator for custom Dactyl
-    Manuform bodies that can do choc vertical but not horizontal spacing;
+[Cosmos](https://ryanis.cool/cosmos/) is a great generator for custom Dactyl
+    Manuform bodies that can do choc vertical but not horizontal spacing,
+    though the bodies are larger than the Hillside;
     it also offers a prebuilt option.
-The Cosmos cases are larger than the Hillside's, though that is also nice
-    in making the case less cramped inside during the build.
 Two choc v1 boards with contoured body columns,
     though no home-row height variation, are the
     [juriform36](https://github.com/jurica/juriform36) and the
