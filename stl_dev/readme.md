@@ -14,6 +14,20 @@ Use a suitable 3D slicer tool to create the mirrored left side versions.
 
 ## Next
 
--   Fix the display screw pushing up a bump
 
 ## Change Log
+
+
+### snap-20250607
+
+-   Display
+    -   Fix screw clearance by recessing screen 1 mm deeper, which also
+        protects the screen a little more.
+    -   Rotate sideways down more to 15°, instead of 10°
+    -   Pull outer sidewall in 1.5 mm.
+    -   Remove three excess screw holes
+    -   Clean up the walls connecting it to the rest of the body.
+-   Keywell
+    -   Index side wall
+        -   Round the outer bottom edge for more room to insert display.
+        -   Leave a wider flat loft between the columns for a better fillet.
