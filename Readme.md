@@ -1,10 +1,6 @@
 # Hillside Dactyl 50
 
-|                 |                 |
-|:-----------     |:----------------|
-| ![Render left](./image/D50_render_left.png) | ![Photo right](./image/D50_right.png) |
-| ![Build boards](./image/D50_build_boards.png) |![Build open](./image/D50_build_open.png) |
-
+![D50 above](https://github.com/mmccoyd/hillside_dactyl_50/wiki/image/d50_both_above.png)
 
 The Hillside Dactyl 50 is a small contoured-keywell ergonomic keyboard
     with three choc-spaced rows of six per side.
