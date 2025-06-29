@@ -32,7 +32,7 @@ See the [Chgange log](./ChangeLog.md) for known issues, but
 -   A [Dactyl](https://github.com/adereth/dactyl-keyboard) style thumb cluster
     with a pressing-down motion not a
     gripping one.
--   Choc 18 x 17 mm spacing.
+-   Choc v1 18 x 17 mm spacing, often nicer for medium or smaller hands.
 -   Wireless focused, yet with a wired split USB-C with ESD protection.
 -   An external switches header for foot pedals, but case drilling would be
     needed.
@@ -57,22 +57,26 @@ See the [Chgange log](./ChangeLog.md) for known issues, but
 
 ## Future
 
-Eventually there will be a breaking change between the case and shield
-    to improve the USB holes,
-    to accept more plug over molding variations and eliminate the recesses.
-In both cases by having the shield push the USB further into the inner wall.
-But this needs more fit modeling and testing, so it will be a while.
-
 For non-breaking changes:
-the display corner can be smoother and less protruding,
-spots for front magnets would allow a palm rest,
-and a CNC steel bottom plate would give a wider base for tenting adjustments
-    and could lower the height a few mm.
+    the display corner could use more smoothing,
+    front magnets spots would allow a palm rest,
+    and, as a larger change, a CNC steel bottom plate would give a wider
+    base for tenting adjustments and could lower the height a few mm.
 
 The development branch folder
     [stl_dev/](https://github.com/mmccoyd/hillside_dactyl_50/tree/dev/stl_dev)
     may have *untested* files with some of these changes.
 
+Eventually there will be a breaking change to eliminate the external recesses
+    for the USB plug overmolding.
+A matching new shield design will be needed that extends the USB into the
+    inner walls.
+But this will be a while.
+
+I don't foresee changes to the basic key configuration,
+    such as a five column version.
+But I'm working to release STEP and source files for the amoeba socket
+    to help others who want to create small choc dactyls.
 
 ## License
 
@@ -95,7 +99,7 @@ The general reasons for
 
 Some prebuild Dactyls include
     the larger [Kinesis Advantage 360](https://kinesis-ergo.com/shop/adv360pro/)
-    and [MoErgo Glove 80](https://www.moergo.com/),
+    and [MoErgo Glove 80](https://www.moergo.com/);
     while [Bastard Keyboards](https://bastardkb.com/) has prebuilt
     medium to small
     [Dactyl Manuforms](https://github.com/abstracthat/dactyl-manuform).
