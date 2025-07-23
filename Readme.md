@@ -85,13 +85,17 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
 
 This Dactyl evolved from my ergonomic but flat
     [Hillside keyboards](https://github.com/mmccoyd/hillside),
-    which may be an easier start for those new to small choc-spaced ergonomic
-    boards.
+    which offer easier starting points for those new to small choc-spaced
+    ergonomic boards.
 
 The general reasons for
     [split contoured-keywells](https://www.ergocanada.com/detailed_specification_pages/kinesis_corporation_advantage360_pro_contoured_keyboard.html#benefits)
     and [small keyboards](https://40s.wiki/en/why) may explain why
     this board can be nice to use.
+
+This Dactyl fits me well and I think likely others with medium hands.
+But a roughly good fit is important in a Dactyl, so the below are valuable
+    alternatives.
 
 Some prebuild Dactyls include
     the larger [Kinesis Advantage 360](https://kinesis-ergo.com/shop/adv360pro/)
@@ -107,9 +111,13 @@ The Glove 80 is the only of these prebuilt with choc spaced switches,
     which are nice for medium or smaller hands.
 
 [Cosmos](https://ryanis.cool/cosmos/) is a great generator for custom Dactyl
-    Manuform bodies that can do choc vertical but not horizontal spacing,
-    though the bodies are larger than the Hillside;
-    it also offers a prebuilt option.
+    Manuform bodies that can do choc vertical but gives thickness warnings for
+    choc horizontal spacing.
+It offers a prebuilt option and allows broad changes to board parameters.
+Including changing the position and angle of the entire thumb
+    cluster, with the select cluster and edit cluster controls,
+    to make it more original Dactyl like or not.
+
 Two choc v1 boards with contoured body columns,
     though no home-row height variation, are the
     [juriform36](https://github.com/jurica/juriform36) and the
